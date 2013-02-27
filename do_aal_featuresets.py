@@ -51,6 +51,7 @@ feats = 'trace'
 ftype  = 'stats'
 nfeats = 7
 
+
 if feats == 'jacs' or feats == 'geodan' or feats == 'norms' or feats == 'trace':
     rootdir  = '/media/data/oasis_aal'
     subjsdir = '/data/oasis_jesper_features/' + feats
